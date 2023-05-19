@@ -1,0 +1,13 @@
+{% load static %}
+
+<li>
+    <article class="post">
+        <a href="{% url 'post-detail-page' 'knitting'%}">
+            <img src="{% static 'blog/images/knitting.jpg' %}" alt="Knitting"/>
+            <div class="post__content">
+                <h3>Knitting</h3>
+                <p>There's nothing like the satisfaction you get when knitting anywhere and I wasn't even prepared for what happened when I knitted my last piece!</p>
+            </div>
+        </a>
+    </article>
+</li>
